@@ -47,7 +47,7 @@ plataforma-ong/
 ## Como Visualizar o Projeto
 
 1. Acesse o link:
-   ```https://dayanepereiracosta.github.io/plataforma-ong/
+   ```bash https://dayanepereiracosta.github.io/plataforma-ong/
 
 ## Autoria
 
