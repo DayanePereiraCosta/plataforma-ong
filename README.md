@@ -44,10 +44,10 @@ plataforma-ong/
 
 ---
 
-## Como Visualizar o Projeto
+## Confira meu site: 
 
-1. Acesse o link:
-   ```bash https://dayanepereiracosta.github.io/plataforma-ong/
+🌐 [dayanepereiracosta.github.io](https://dayanepereiracosta.github.io/plataforma-ong/)
+
 
 ## Autoria
 
