@@ -46,23 +46,17 @@ plataforma-ong/
 
 ## Como Visualizar o Projeto
 
-1. Faça o download ou clone este repositório:
-   ```bash
-   git clone https://github.com/seuusuario/plataforma-ong.git
-2. Abra a pasta no seu editor de código (VS Code recomendado).
+1. Acesse o link:
+   ```https://dayanepereiracosta.github.io/plataforma-ong/
 
-3. Clique com o botão direito em qualquer arquivo HTML e selecione:
-"Open with Live Server"
-(ou simplesmente abra o arquivo no navegador)
-
-AUTORIA
+## Autoria
 
 Projeto desenvolvido por Dayane Pereira Costa
  Estudante de Análise e Desenvolvimento de Sistemas
  Faculdade Cruzeiro do Sul Virtual
  Disciplina: Desenvolvimento Front-End para Web
 
-AGRADECIMENTO
+## Agradecimento
 
 “Costurar é unir pedaços — de tecido, de sonhos e de vidas.”
 Este projeto é uma sementinha do que espero ver florescer no futuro:
