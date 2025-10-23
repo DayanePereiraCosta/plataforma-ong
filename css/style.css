@@ -1,0 +1,331 @@
+/* DESIGN SYSTEM — COSTURANDO SONHOS */
+
+/* paleta de cores */
+:root {
+  --cor-primaria: #e07a5f;      
+  --cor-secundaria: #81b29a;     
+  --cor-destaque: #f2cc8f;       
+  --cor-clara: #f4f1de;          
+  --cor-escura: #3d405b;         
+  --cor-texto: #333333;
+  --cor-neutra: #cccccc;
+  --cor-branca: #ffffff;
+  --cor-erro: #e63946;
+  --cor-sucesso: #2a9d8f;
+}
+
+/* tipografia */
+:root {
+  --font-principal: "Poppins", Arial, sans-serif;
+  --font-titulo: "Playfair Display", serif;
+
+  --font-xs: 0.8rem;
+  --font-sm: 1rem;
+  --font-md: 1.2rem;
+  --font-lg: 1.6rem;
+  --font-xl: 2rem;
+}
+
+/* espaçamento modular */
+:root {
+  --esp-8: 8px;
+  --esp-16: 16px;
+  --esp-24: 24px;
+  --esp-32: 32px;
+  --esp-48: 48px;
+  --esp-64: 64px;
+}
+
+/* reset básico e fonte global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-principal);
+  line-height: 1.6;
+  color: var(--cor-texto);
+  background-color: var(--cor-clara);
+}
+
+/* cabeçalho e menu principal */
+
+header {
+  background-color: var(--cor-branca);
+  padding: var(--esp-16);
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-family: var(--font-titulo);
+  font-size: var(--font-lg);
+  color: var(--cor-escura);
+  margin-bottom: var(--esp-8);
+}
+
+/* menu principal */
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: var(--esp-16);
+  padding: 0;
+  position: relative;
+}
+
+nav li {
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--cor-escura);
+  font-weight: 500;
+  padding: var(--esp-8) var(--esp-16);
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: var(--cor-primaria);
+  color: var(--cor-branca);
+}
+
+/* submenu dropdown */
+nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--cor-branca);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  list-style: none;
+  padding: var(--esp-8) 0;
+  min-width: 180px;
+  z-index: 10;
+}
+
+nav li:hover ul {
+  display: block;
+}
+
+nav li ul li a {
+  display: block;
+  padding: var(--esp-8) var(--esp-16);
+  color: var(--cor-escura);
+}
+
+nav li ul li a:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-branca);
+}
+
+/* cards de projetos */
+
+article {
+  background-color: var(--cor-branca);
+  border-radius: 12px;
+  padding: var(--esp-16);
+  margin-bottom: var(--esp-24);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+article h3 {
+  font-size: var(--font-md);
+  color: var(--cor-escura);
+  margin-bottom: var(--esp-8);
+}
+
+article figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: var(--esp-8);
+}
+
+article figcaption {
+  font-size: var(--font-sm);
+  color: #777;
+  margin-bottom: var(--esp-8);
+}
+
+article p {
+  font-size: var(--font-sm);
+  color: var(--cor-texto);
+  line-height: 1.5;
+}
+
+/* badges / tags */
+
+.badge {
+  display: inline-block;
+  padding: var(--esp-4) var(--esp-8);
+  background-color: var(--cor-secundaria);
+  color: var(--cor-branca);
+  font-size: var(--font-xs);
+  border-radius: 12px;
+  margin-right: var(--esp-4);
+  margin-bottom: var(--esp-4);
+}
+
+/* formulário de cadastro */
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--esp-16);
+  background-color: var(--cor-branca);
+  padding: var(--esp-16);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+fieldset {
+  border: 1px solid var(--cor-neutra);
+  border-radius: 8px;
+  padding: var(--esp-16);
+}
+
+legend {
+  font-weight: bold;
+  font-size: var(--font-md);
+  color: var(--cor-escura);
+}
+
+label {
+  display: block;
+  margin-bottom: var(--esp-8);
+  font-size: var(--font-sm);
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: var(--esp-8);
+  margin-bottom: var(--esp-12);
+  border: 1px solid var(--cor-neutra);
+  border-radius: 6px;
+  font-size: var(--font-sm);
+  font-family: var(--font-principal);
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--cor-primaria);
+  outline: none;
+  box-shadow: 0 0 5px rgba(224, 122, 95, 0.4);
+}
+
+/* validação visual */
+input:invalid, textarea:invalid, select:invalid {
+  border-color: var(--cor-erro);
+}
+
+input:valid, textarea:valid, select:valid {
+  border-color: var(--cor-sucesso);
+}
+
+/* botões */
+form button {
+  padding: var(--esp-10) var(--esp-16);
+  border: none;
+  border-radius: 8px;
+  font-size: var(--font-sm);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button[type="submit"] {
+  background-color: var(--cor-primaria);
+  color: var(--cor-branca);
+}
+
+form button[type="submit"]:hover {
+  background-color: var(--cor-secundaria);
+}
+
+form button[type="reset"] {
+  background-color: var(--cor-neutra);
+}
+
+form button[type="reset"]:hover {
+  background-color: #aaaaaa;
+  color: var(--cor-branca);
+}
+
+/* feedbacks (alerts / toasts) */
+
+.alert {
+  padding: var(--esp-8);
+  border-radius: 6px;
+  margin-bottom: var(--esp-16);
+  font-size: var(--font-sm);
+}
+
+.alert-erro {
+  background-color: var(--cor-erro);
+  color: var(--cor-branca);
+}
+
+.alert-sucesso {
+  background-color: var(--cor-sucesso);
+  color: var(--cor-branca);
+}
+
+/* headers de seção */
+
+main h2 {
+  font-family: var(--font-titulo);
+  font-size: var(--font-lg);
+  color: var(--cor-escura);
+  text-align: center;
+  margin-bottom: var(--esp-16);
+}
+
+main h3 {
+  font-size: var(--font-md);
+  color: var(--cor-escura);
+  margin-bottom: var(--esp-8);
+}
+
+/* parágrafos e listas */
+
+main p, main li {
+  font-size: var(--font-sm);
+  line-height: 1.5;
+  color: var(--cor-texto);
+}
+
+main ul {
+  padding-left: var(--esp-16);
+  margin-bottom: var(--esp-16);
+}
+
+/* rodapé */
+
+footer {
+  background-color: var(--cor-branca);
+  text-align: center;
+  padding: var(--esp-16);
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.08);
+  font-size: var(--font-xs);
+  color: var(--cor-escura);
+}
+
+/* imagens */
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius
