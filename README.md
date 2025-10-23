@@ -60,7 +60,6 @@ plataforma-ong/
 
 ## 💻 Tecnologias Utilizadas
 
-
 - **HTML5 semântico**
 - **CSS3 com variáveis e responsividade**
 - **Boas práticas de design system**
@@ -69,20 +68,25 @@ plataforma-ong/
 
 ---
 
-## Confira meu site: 
+## 🌐 Confira meu site
 
-🌐 [dayanepereiracosta.github.io](https://dayanepereiracosta.github.io/plataforma-ong/)
+ [dayanepereiracosta.github.io/plataforma-ong](https://dayanepereiracosta.github.io/plataforma-ong/)
 
+---
 
 ## Autoria
 
-Projeto desenvolvido por Dayane Pereira Costa
- Estudante de Análise e Desenvolvimento de Sistemas
- Faculdade Cruzeiro do Sul Virtual
- Disciplina: Desenvolvimento Front-End para Web
+**Projeto desenvolvido por:**  
+*Dayane Pereira Costa*  
+Estudante de **Análise e Desenvolvimento de Sistemas**  
+Faculdade **Cruzeiro do Sul Virtual**  
+Disciplina: **Desenvolvimento Front-End para Web**
+
+---
 
 ## Agradecimento
 
-“Costurar é unir pedaços — de tecido, de sonhos e de vidas.”
-Este projeto é uma sementinha do que espero ver florescer no futuro:
-uma plataforma real para ajudar mulheres a recomeçarem com dignidade e amor.
+> “Costurar é unir pedaços — de tecido, de sonhos e de vidas.”  
+> Este projeto é uma sementinha do que espero ver florescer no futuro:  
+> uma plataforma real para ajudar mulheres a recomeçarem com dignidade e amor.
+
