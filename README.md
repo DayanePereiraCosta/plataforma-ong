@@ -47,13 +47,21 @@ A plataforma representa o sonho de tornar a **ONG Costurando Sonhos** uma presen
 ## 🗂 **Estrutura de Pastas**
 
 plataforma-ong/
+
 │
+
 ├── css/ # Folhas de estilo e variáveis
+
 │ └── style.css
+
 ├── imagens/ # Pasta com as imagens utilizadas
+
 ├── index.html # Página inicial
+
 ├── projetos.html # Página de projetos sociais
+
 ├── cadastro.html # Página de cadastro (formulário)
+
 └── README.md # Descrição do projeto
 
 ---
