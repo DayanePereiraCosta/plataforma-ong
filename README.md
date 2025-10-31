@@ -87,11 +87,16 @@ plataforma-ong/
 
 ## 💻 Tecnologias Utilizadas
 
-- **HTML5 semântico**
-- **CSS3 com variáveis e responsividade**
-- **Boas práticas de design system**
-- **Validação nativa de formulários**
-- **Estrutura acessível e otimizada**
+* **HTML5 semântico:** Criação de estrutura de página lógica e acessível.
+* **CSS3 com variáveis e responsividade:** Implementação de um Design System com variáveis (`--cor-primaria`, etc.) e layouts que se adaptam a qualquer tela (Mobile First).
+* **Boas práticas de design system:** Uso de estilos e componentes consistentes em toda a aplicação.
+* **Validação nativa de formulários:** Utilizada como camada base de segurança e usabilidade.
+* **Estrutura acessível e otimizada.**
+* **JavaScript Puro (Vanilla JS):** Utilizado para lógica de aplicação e DOM Scripting.
+* **ES Modules:** Arquitetura modular (`import`/`export`) para segregação de responsabilidades e carregamento de código sob demanda.
+* **Single Page Application (SPA):** Roteamento básico implementado via `fetch` e manipulação do DOM para simular a navegação sem recarregar a página.
+* **Integração com API Externa:** Uso da **Fetch API** (`async/await`) para consumo da API **ViaCEP**.
+* **Framework/Biblioteca:** Inclusão e uso do **Alpine.js** para demonstração de integração com frameworks de terceiros e criação de componentes reativos simples.
 
 ---
 
