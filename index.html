@@ -129,10 +129,43 @@
     </section>
   </main>
 
+    <!-- Cabeçalho principal -->
+  <header style="background-color:#f7f7f7; padding:15px; text-align:center;">
+    <h1 style="font-size:1.6em; margin:0;">ONG Costurando Sonhos</h1>
+    <!-- Navegação principal -->
+    <nav aria-label="Menu principal" style="margin-top:10px;">
+      <ul style="list-style:none; padding:0; margin:0;">
+        <li style="display:inline; margin:0 10px;"><a href="index.html" style="text-decoration:none; color:#333;">Início</a></li>
+        <li style="display:inline; margin:0 10px;"><a href="projetos.html" style="text-decoration:none; color:#333;">Projetos</a></li>
+        <li style="display:inline; margin:0 10px;"><a href="cadastro.html" style="text-decoration:none; color:#333;">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section style="text-align:center; padding: 15px; background-color: #f4f1de;">
+      <div x-data="{ 
+          horaAtual: new Date().toLocaleTimeString('pt-BR'),
+          dataAtual: new Date().toLocaleDateString('pt-BR') 
+      }" 
+      x-init="setInterval(() => { horaAtual = new Date().toLocaleTimeString('pt-BR') }, 1000)">
+        
+        <p style="font-size: 0.9em; color: var(--cor-escura, #3d405b);">
+          Status da Aplicação (via Alpine.js): 
+          <br>
+          Data: <span style="font-weight: bold;" x-text="dataAtual"></span> 
+          | 
+          Hora Atual: <span style="font-weight: bold; color: var(--cor-secundaria, #81b29a);" x-text="horaAtual"></span>
+        </p>
+      </div>
+    </section>
+
   <!-- Rodapé -->
   <footer style="background-color:#f7f7f7; text-align:center; padding:10px;">
     <p style="margin:0; font-size:0.9em;">&copy; 2025 ONG Costurando Sonhos | Desenvolvido por Dayane Pereira Costa</p>
   </footer>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script type="module" src="js/app.js"></script>
 
 </body>
 </html>
