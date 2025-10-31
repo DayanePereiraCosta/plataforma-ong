@@ -33,37 +33,6 @@ A plataforma representa o sonho de tornar a **ONG Costurando Sonhos** uma presen
   - Responsividade para diferentes tamanhos de tela.  
 - ✅ **Entrega:** página estilizada e totalmente responsiva.
 
----
-Com certeza! Vamos atualizar o seu README.md com a descrição completa e detalhada de tudo que foi implementado na Etapa 3 (JavaScript), transformando o que era "em desenvolvimento" em entregue.
-
-Aqui está o conteúdo do seu README.md atualizado em Markdown:
-
-Markdown
-
-# 💖 ONG Costurando Sonhos: Plataforma de Recrutamento de Voluntários
-
-Este projeto simula a plataforma institucional e de recrutamento de uma ONG fictícia focada em trabalhos sociais e costura. O objetivo é demonstrar o domínio de front-end, progredindo da estrutura básica (HTML) à estilização avançada (CSS) e, finalmente, à interatividade e arquitetura moderna (JavaScript/SPA).
-
-## 🧵 Etapas de Desenvolvimento
-
-### Etapa 1 — Estrutura em HTML5
-Criação da base semântica do site utilizando apenas **HTML5 puro**.
-Implementação de:
-* Cabeçalho, rodapé e navegação principal;
-* Estrutura das três páginas principais (Home, Projetos e Cadastro);
-* Uso correto de seções (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`);
-* Formulário com validação nativa em HTML.
-✅ **Entrega:** estrutura estática e acessível.
-
-### Etapa 2 — Estilização com CSS3
-Adição de **design system completo** com variáveis de cor, tipografia e espaçamento.
-Criação de layout moderno, responsivo e visualmente agradável.
-Aplicação de:
-* Paleta de cores harmônica inspirada em tons de costura e acolhimento;
-* Formatação do menu principal e dos cards de projetos;
-* Estilização completa do formulário de cadastro;
-* Responsividade para diferentes tamanhos de tela.
-✅ **Entrega:** página estilizada e totalmente responsiva.
 
 ### Etapa 3 — Interatividade com JavaScript
 
@@ -89,17 +58,28 @@ Implementação completa de lógica JavaScript para transformar a aplicação es
 
 ## 🗂 **Estrutura de Pastas**
 
-plataforma-ong/ │ 
-├── css/ # Folhas de estilo e variáveis 
-│ └── style.css 
+plataforma-ong/ 
+
+├── css/ # Folhas de estilo e variáveis
+
+│ └── style.css
+
 ├── js/ # Lógica modular da aplicação (SPA, Validação) 
+
 │ ├── app.js 
+
 │ ├── main.js 
+
 │ └── form.js 
-├── imagens/ # Pasta com as imagens utilizadas 
-├── index.html # Página inicial (Home) 
-├── projetos.html # Página de projetos sociais 
-├── cadastro.html # Página de cadastro (Formulário) 
+
+├── imagens/ # Pasta com as imagens utilizadas
+
+├── index.html # Página inicial (Home)
+
+├── projetos.html # Página de projetos sociais
+
+├── cadastro.html # Página de cadastro (Formulário)
+
 └── README.md
 
 
