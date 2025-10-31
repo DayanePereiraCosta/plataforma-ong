@@ -133,22 +133,6 @@
       </section>
       </section>
     
-    <section style="text-align:center; padding: 15px; background-color: #f4f1de; margin-top: 20px; border-radius: 8px;">
-      <div x-data="{ 
-          horaAtual: new Date().toLocaleTimeString('pt-BR'),
-          dataAtual: new Date().toLocaleDateString('pt-BR') 
-      }" 
-      x-init="setInterval(() => { horaAtual = new Date().toLocaleTimeString('pt-BR') }, 1000)">
-        
-        <p style="font-size: 0.9em; color: var(--cor-escura, #3d405b);">
-          Monitoramento do Cadastro (via Alpine.js): 
-          <br>
-          Data Atual: <span style="font-weight: bold;" x-text="dataAtual"></span> 
-          | 
-          Hora do Sistema: <span style="font-weight: bold; color: var(--cor-secundaria, #81b29a);" x-text="horaAtual"></span>
-        </p>
-      </div>
-    </section>
     </main>
 
       <!-- Cabeçalho principal -->
